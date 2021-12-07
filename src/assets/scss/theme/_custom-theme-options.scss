@@ -1,0 +1,240 @@
+/**=====================
+   55. theme layout CSS Start
+==========================**/
+//Sidebar color scss
+$color1 : #405365;
+$color2 : #1C1D1E;
+$color3 : #0c0c3c;
+$color4 : #0747a6;
+$color5 : #4d3096;
+@each $bg-name, $bg-color in (color1, $color1),
+				(color2, $color2) ,
+				(color3, $color3),
+				(color4, $color4),
+				(color5, $color5),
+				(light, $light-color),
+				(dark, #2f3c4e){
+	.bg-#{$bg-name}{
+		background-color:$bg-color ;
+	}
+}
+//Sidebar settings
+.page-wrapper {
+	.page-body-wrapper {
+		.page-sidebar{
+			&[sidebar-layout="border-sidebar"] {
+				.sidebar-header {
+					border-bottom: 1px solid rgba(124, 124, 124, 0.15);
+					transition: all 0.3s ease;
+				}
+			}
+			&[sidebar-layout="iconcolor-sidebar"],&.iconcolor-sidebar{
+				.sidebar-menu{
+					li{
+						$colors: $success-color, $secondary-color, $primary-color, $danger-color, $info-color, $warning-color, $light-color;
+						$repeat: 100 ;
+						@for $i from 1 through $repeat {
+							&:nth-child(#{length($colors)}n+#{$i}) {
+								svg{
+									color: lighten(nth($colors, random(length($colors))), 15%);
+								}
+								a{
+									&:hover{
+										> span{
+											color: lighten(nth($colors, random(length($colors))), 15%);
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				&.light-sidebar{
+					.sidebar-menu{
+						li{
+							$colors: $success-color, $secondary-color, $primary-color, $danger-color, $info-color, $warning-color, $dark-color;
+							$repeat: 100 ;
+							@for $i from 1 through $repeat {
+								&:nth-child(#{length($colors)}n+#{$i}) {
+									svg{
+										color: darken(nth($colors, random(length($colors))), 15%);
+									}
+									a{
+										&:hover{
+											span{
+												color: darken(nth($colors, random(length($colors))), 15%);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.sidebar-header {
+				transition: all 0.3s ease;
+			}
+		}
+		&.sidebar-icon {
+			.page-sidebar {
+				&.light-sidebar {
+					.sidebar-menu {
+						li {
+							&:hover {
+								.single-header {
+									background-color: $light-color !important;
+								}
+								.sidebar-submenu {
+									background-color: $light-color !important;
+								}
+							}
+							a:hover + ul {
+								background-color: $light-color !important;
+							}
+							ul {
+								li{
+									&:hover {
+										.sidebar-submenu {
+											background-color: $light-color !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				&.color1-sidebar {
+					.sidebar-menu {
+						li {
+							&:hover {
+								.single-header {
+									background-color: $color1 !important;
+								}
+								.sidebar-submenu {
+									background-color: $color1 !important;
+								}
+							}
+							a:hover + ul {
+								background-color: $color1 !important;
+							}
+							ul {
+								li{
+									&:hover {
+										.sidebar-submenu {
+											background-color: $color1 !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				&.color2-sidebar {
+					.sidebar-menu {
+						li {
+							&:hover {
+								.single-header {
+									background-color: $color2 !important;
+								}
+								.sidebar-submenu {
+									background-color: $color2 !important;
+								}
+							}
+							a:hover + ul {
+								background-color: $color2 !important;
+							}
+							ul {
+								li{
+									&:hover {
+										.sidebar-submenu {
+											background-color: $color2 !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				&.color3-sidebar {
+					.sidebar-menu {
+						li {
+							&:hover {
+								.single-header {
+									background-color: $color3 !important;
+								}
+								.sidebar-submenu {
+									background-color: $color3 !important;
+								}
+							}
+							a:hover + ul {
+								background-color: $color3 !important;
+							}
+							ul {
+								li{
+									&:hover {
+										.sidebar-submenu {
+											background-color: $color3 !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				&.color4-sidebar {
+					.sidebar-menu {
+						li {
+							&:hover {
+								.single-header {
+									background-color: $color4 !important;
+								}
+								.sidebar-submenu {
+									background-color: $color4 !important;
+								}
+							}
+							a:hover + ul {
+								background-color: $color4 !important;
+							}
+							ul {
+								li{
+									&:hover {
+										.sidebar-submenu {
+											background-color: $color4 !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				&.color5-sidebar {
+					.sidebar-menu {
+						li {
+							&:hover {
+								.single-header {
+									background-color: $color5 !important;
+								}
+								.sidebar-submenu {
+									background-color: $color5 !important;
+								}
+							}
+							a:hover + ul {
+								background-color: $color5 !important;
+							}
+							ul {
+								li{
+									&:hover {
+										.sidebar-submenu {
+											background-color: $color5 !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

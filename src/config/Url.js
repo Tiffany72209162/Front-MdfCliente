@@ -1,0 +1,1 @@
+export const url = 'https://apimdf.devopsacademy.pe/api'

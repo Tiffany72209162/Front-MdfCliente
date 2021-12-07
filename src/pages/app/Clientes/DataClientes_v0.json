@@ -1,0 +1,121 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombres": "Tom",
+      "apellidos": "Benavente",
+      "tipodocumento": "DNI",
+      "nrodocumento": "12345678",
+      "empresa": "EMRPESA1",
+      "celular1": "123456789",
+      "perfil": 2,
+      "correo": "gmail@gmail.com",
+      "password": "12345679878979878979889",
+      "estado": false
+    },
+    {
+      "id": 2,
+      "nombres": "Leonidas ",
+      "apellidos": "Brigtohn Lima",
+      "tipodocumento": "DNI",
+      "nrodocumento": "87956421",
+      "empresa": "EMRPESA1565",
+      "celular1": "123456789",
+      "perfil": 1,
+      "correo": "prueba213@gmail.com",
+      "password": "12345679878979878979889",
+      "estado": true
+    },
+    {
+      "id": 3,
+      "nombres": "Juan Luis",
+      "apellidos": "Guerra Garcia",
+      "tipodocumento": "DNI",
+      "nrodocumento": "12345678",
+      "empresa": "knjkdnjkndjkndfj",
+      "celular1": "123456789",
+      "perfil": 1,
+      "correo": "test2@gmail.com",
+      "password": "12345679878979878979889",
+      "estado": false
+    },
+    {
+      "id": 4,
+      "nombres": "Hristo",
+      "apellidos": "Ayala ",
+      "tipodocumento": "DNI",
+      "nrodocumento": "14785296",
+      "empresa": "jkdsbfjdb",
+      "celular1": "12345678",
+      "perfil": 1,
+      "correo": "test50@gmail.com",
+      "password": "12345679878979878979889",
+      "estado": true
+    },
+    {
+      "id": 5,
+      "nombres": "Nombre",
+      "apellidos": "Apellido",
+      "tipodocumento": "DNI",
+      "nrodocumento": "12345678",
+      "empresa": "Empresa122",
+      "celular1": "12345687",
+      "perfil": 1,
+      "correo": "123564@gmail.com",
+      "password": "123456",
+      "estado": false
+    },
+    {
+      "nombres": "jkbnjkb",
+      "apellidos": "jkbjkbjk",
+      "tipodocumento": "DNI",
+      "nrodocumento": "12345678",
+      "empresa": "Prueba",
+      "celular1": "12345678",
+      "perfil": 4,
+      "correo": "dsf@gmail.com",
+      "password": "123456",
+      "estado": true,
+      "id": 6
+    },
+    {
+      "nombres": "dsgsdgqq",
+      "apellidos": "fdgdfgdf",
+      "tipodocumento": "DNI",
+      "nrodocumento": "12345678",
+      "empresa": "dsfsdgdg",
+      "celular1": "123564",
+      "perfil": 4,
+      "correo": "ds@gmail.com",
+      "password": "123456",
+      "estado": true,
+      "id": 7
+    },
+    {
+      "nombres": "dgdfgdsg",
+      "apellidos": "fsdfsdf",
+      "tipodocumento": "DNI",
+      "nrodocumento": "123456",
+      "empresa": "dsfdsgsg",
+      "celular1": "123456",
+      "perfil": 4,
+      "correo": "dsfdsgsg@gmail.com",
+      "password": "123456",
+      "estado": true,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "nombres": "Prueba20",
+      "apellidos": "prueba20",
+      "tipodocumento": "EXT",
+      "nrodocumento": "12345620",
+      "empresa": "Prueba20",
+      "celular1": "12345620",
+      "perfil": 4,
+      "correo": "prueba20@gmail.com",
+      "password": "prueba",
+      "estado": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: front-ticket-ui
+    labels:
+        app: front-ticket-ui
+spec:
+    selector:
+        matchLabels:
+            app: front-ticket-ui
+    template:
+        metadata:
+            labels:
+                app: front-ticket-ui
+        spec:
+            containers:
+                - name: front-ticket-ui
+                  image: registry.gitlab.com/2cloudpe/learn-gitlab:2.0.1
+                  imagePullPolicy: IfNotPresent
+                  ports:
+                      - containerPort: 80
+                        protocol: TCP
+            imagePullSecrets:
+                - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: frontend-ticket-ui-service
+    namespace: default
+spec:
+    ports:
+        - port: 80
+          protocol: TCP
+          targetPort: 80
+    selector:
+        app: front-ticket-ui

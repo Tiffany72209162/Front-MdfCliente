@@ -1,0 +1,70 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombres": "TomDGDSG",
+      "apellidos": "BenaventeFDGFD",
+      "nombre_compania": "EMRPESA1DFG",
+      "area_departamento": "AREA1FDGDFG",
+      "perfil": 4,
+      "email": "gmaiDFGl@gmail.com",
+      "password": "12345679878979878979889",
+      "estado": true
+    },
+    {
+      "id": 2,
+      "nombres": "Leonidas ",
+      "apellidos": "Brigtohn Lima",
+      "email": "gmail@gmail.com",
+      "password": "12345679878979878979889",
+      "perfil": 4,
+      "nombre_compania": "EMRPESA1",
+      "area_departamento": "AREA1",
+      "estado": false
+    },
+    {
+      "id": 3,
+      "nombres": "Nombre",
+      "apellidos": "Apellido",
+      "nombre_compania": "EMRPESA1",
+      "area_departamento": "AREA1",
+      "perfil": 4,
+      "email": "gmail@gmail.com",
+      "password": "12345679878979878979889",
+      "estado": true
+    },
+    {
+      "id": 4,
+      "nombres": "Prueba2",
+      "apellidos": "Prueba2",
+      "nombre_compania": "Prueba2",
+      "area_departamento": "Prueba2",
+      "perfil": 4,
+      "email": "sd@gmail.com",
+      "password": "123456",
+      "estado": false
+    },
+    {
+      "id": 5,
+      "nombres": "Prueba100",
+      "apellidos": "Prueba100",
+      "nombre_compania": "Prueba100",
+      "area_departamento": "Prueba100",
+      "perfil": 4,
+      "email": "Prueba5@gmail.com",
+      "password": "123456",
+      "estado": false
+    },
+    {
+      "nombres": "PRUEBA5",
+      "apellidos": "PRUEBA5",
+      "nombre_compania": "PRUEBA5",
+      "area_departamento": "PRUEBA5",
+      "perfil": 4,
+      "email": "PRUEBA5@GMAIL.COM",
+      "password": "123456",
+      "estado": true,
+      "id": 6
+    }
+  ]
+}
